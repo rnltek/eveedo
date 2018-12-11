@@ -1,0 +1,34 @@
+<?php
+session_start();
+setcookie("dob_month", "", time() - 3600,"/");
+setcookie("dob_day", "", time() - 3600,"/");
+setcookie("dob_year", "", time() - 3600,"/");
+setcookie("ecn", "", time() - 3600,"/");
+setcookie("token", "", time() - 3600,"/");
+setcookie("first_name", "", time() - 3600,"/");
+setcookie("last_name", "", time() - 3600,"/");
+setcookie("full_name", "", time() - 3600,"/");
+setcookie("gender", "", time() - 3600,"/");
+setcookie("birthday", "", time() - 3600,"/");
+setcookie("location", "", time() - 3600,"/");
+setcookie("location_full", "", time() - 3600,"/");
+setcookie("country", "", time() - 3600,"/");
+setcookie("avatar", "", time() - 3600,"/");
+setcookie("stats_contacts", "", time() - 3600,"/");
+setcookie("stats_following", "", time() - 3600,"/");
+setcookie("stats_followers", "", time() - 3600,"/");
+setcookie("stats_events", "", time() - 3600,"/");
+setcookie("stats_files", "", time() - 3600,"/");
+setcookie("stats_folders", "", time() - 3600,"/");
+setcookie("stats_messages", "", time() - 3600,"/");
+setcookie("stats_links", "", time() - 3600,"/");
+setcookie("stats_groups", "", time() - 3600,"/");
+setcookie("stats_friends", "", time() - 3600,"/");
+setcookie("stats_photos", "", time() - 3600,"/");
+setcookie("stats_videos", "", time() - 3600,"/");
+setcookie("token", "", time() - 3600,"/");
+setcookie("stats_tasks", "", time() - 3600,"/");
+setcookie("stats_notifications", "", time() - 3600,"/");
+session_destroy();
+header("Location:../");
+?>

@@ -1,0 +1,42 @@
+.text-white {
+    color: #ffffff;
+}
+.bg-white {
+    background-color: #ffffff;
+    background: #ffffff;
+}
+.text-dark-blue {
+    color: #293e6a;
+}
+.bg-dark-blue {
+    background-color: #293e6a;
+    background: #293e6a;
+}
+.text-med-blue {
+    color: #3b5998;
+}
+.bg-med-blue {
+    background-color: #3b5998;
+    background: #3b5998;
+}
+.text-light-blue {
+    color: #639bf1;
+}
+.bg-light-blue {
+    background-color: #639bf1;
+    background: #639bf1;
+}
+.text-teal {
+    color: #77ba9b;
+}
+.bg-teal {
+    background-color: #77ba9b;
+    background: #77ba9b;
+}
+.text-tan {
+    color: #b6a754;
+}
+.bg-tan {
+    background-color: #b6a754;
+    background: #b6a754;
+}
